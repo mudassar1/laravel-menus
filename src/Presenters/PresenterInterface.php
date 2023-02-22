@@ -27,7 +27,7 @@ interface PresenterInterface
      *
      * @return string
      */
-    public function getMenuWithoutDropdownWrapper($item);
+    public function getMenuWithoutDropdownWrapper(MenuItem $item);
 
     /**
      * Get divider tag wrapper.
@@ -43,7 +43,7 @@ interface PresenterInterface
      *
      * @return mixed
      */
-    public function getHeaderWrapper($item);
+    public function getHeaderWrapper(MenuItem $item);
 
     /**
      * Get menu tag with dropdown wrapper.
@@ -52,7 +52,7 @@ interface PresenterInterface
      *
      * @return string
      */
-    public function getMenuWithDropDownWrapper($item);
+    public function getMenuWithDropDownWrapper(MenuItem $item);
 
     /**
      * Get child menu items.
