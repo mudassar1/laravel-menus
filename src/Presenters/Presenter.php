@@ -31,7 +31,7 @@ abstract class Presenter implements PresenterInterface
      *
      * @return string
      */
-    public function getMenuWithoutDropdownWrapper($item)
+    public function getMenuWithoutDropdownWrapper(MenuItem $item)
     {
     }
 
@@ -51,7 +51,7 @@ abstract class Presenter implements PresenterInterface
      *
      * @return string
      */
-    public function getHeaderWrapper($item)
+    public function getHeaderWrapper(MenuItem $item)
     {
     }
 
@@ -62,7 +62,7 @@ abstract class Presenter implements PresenterInterface
      *
      * @return string
      */
-    public function getMenuWithDropDownWrapper($item)
+    public function getMenuWithDropDownWrapper(MenuItem $item)
     {
     }
 
@@ -73,7 +73,7 @@ abstract class Presenter implements PresenterInterface
      *
      * @return string
      */
-    public function getMultiLevelDropdownWrapper($item)
+    public function getMultiLevelDropdownWrapper(MenuItem $item)
     {
     }
 
